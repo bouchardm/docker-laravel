@@ -1,0 +1,6 @@
+laravel-docker_1:
+  build: .
+  ports:
+    - "80:80"
+  volumes:
+    - .:/var/www/html
